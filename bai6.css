@@ -1,0 +1,22 @@
+body {
+  border: 3px solid #e67e22;
+  border-radius: 10px;
+  padding: 20px;
+  background: #e6d2b3 url ("./anh/anhcf.jpg") no-repeat right top;
+  background-position: cover;
+  width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #e67e22;
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+p {
+  text-align: justify;
+  color: #494847;
+}
