@@ -1,0 +1,57 @@
+/* Reset các lề mặc định của trình duyệt */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.banner {
+  /* 1. Thiết lập hình nền */
+  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80");
+
+  /* 2. Cấu hình hình nền theo yêu cầu */
+  background-size: cover; /* Lấp đầy toàn bộ khu vực, không bị lặp */
+  background-position: center; /* Luôn hiển thị trung tâm bức ảnh */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
+
+  /* 3. Kích thước khu vực lớn đầu trang */
+  height: 100vh; /* 100% chiều cao màn hình */
+  width: 100%;
+
+  position: relative;
+}
+
+/* Lớp phủ để tăng độ tương phản cho chữ trắng (đúng mô tả yêu cầu) */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* Màu đen mờ 40% */
+  width: 100%;
+  height: 100%;
+
+  /* Căn giữa nội dung chữ bằng Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  color: #ffffff; /* Chữ màu trắng sáng */
+  max-width: 800px;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

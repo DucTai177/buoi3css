@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 30px;
+}
+
+.course-container {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 25px 30px;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.course-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #444;
+}
+
+.course-title + p {
+  font-style: italic;
+  color: #777;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.course-list {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.course-list > li {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sub-course-list {
+  list-style-type: square;
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.sub-course-list > li {
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.course-list a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.course-list a:hover {
+  text-decoration: underline;
+}
